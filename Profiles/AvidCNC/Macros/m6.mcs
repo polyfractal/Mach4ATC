@@ -1,0 +1,22 @@
+local inst = mc.mcGetInstance()
+
+package.path = "C:\\Mach4Hobby\\Profiles\\AvidCNC\\Modules\\?.lua;"
+
+if(package.loaded.ToolChangePositions == nil) then
+    atc = require "ToolChangePositions"
+end
+
+-- M6 macro, which basically just fetches the tools and calls the M6 function
+-- in our ATC module
+function m6()
+    ------ Get and compare next and current tools ------
+    local SelectedTool = mc.mcToolGetSelected(inst)
+    local CurrentTool = mc.mcToolGetCurrent(inst)
+
+    atc.m6(CurrentTool, SelectedTool, true)
+end
+
+if (mc.mcInEditor() == 1) then
+    m6()
+end
+

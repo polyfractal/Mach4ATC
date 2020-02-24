@@ -1,0 +1,15 @@
+Tool_Number,Name,X_Position,Y_Position,Z_Position
+1,Flycutter,1,1,-4
+2,Probe,5.488,36.2478,-7.3598
+3,3Fl 1/4 standard,6.9851,33.5259,-7.3638
+4,1Fl 90Deg chamfer,8.5045,36.102,-8.1187
+5,2Fl 1/8 ball,9.9996,33.5421,-7.3638
+6,4Fl 1/4 variable standard,11.5064,36.117,-8.1187
+7,3Fl 1/4 variable stabdard,13.0297,33.5174,-7.3638
+8,3Fl 1/4 variable standard,14.5336,36.0914,-8.1187
+9,3Fl 1/4 variable long,16.0484,33.524,-7.3638
+10,3Fl 1/4 variable stub,17.5517,36.1067,-8.1187
+11,#10 threadmill,19.0567,33.5067,-7.3638
+12,3Fl 1/8 standard,20.586,36.0716,-8.1187
+13,EMPTY,22.0792,33.5049,-7.3638
+14,EMPTY,23.5971,36.0656,-8.1187
